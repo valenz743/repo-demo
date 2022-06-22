@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picture</title>
+</head>
+<body>
+    <!-- <picture>
+        <source srcset="/imagenes/oficina.jpg">
+        <source srcset="/imagenes/logro.svg">
+        <img src="/imagenes/icono.png">
+    </picture> -->
+
+    <picture>
+        <source srcset="https://www.gstatic.com/webp/gallery/4.sm.webp" type="image/webp">
+        <source srcset="https://www.gstatic.com/webp/gallery/4.sm.jpg" type="image/jpg">
+        <source srcset="/imagenes/oficina.jpg" media="(min-width:800px)">
+        <source srcset="/imagenes/logro.svg" media="(min-width:400px)">
+        <img src="/imagenes/icono.png">
+    </picture>
+
+    
+</body>
+</html>
